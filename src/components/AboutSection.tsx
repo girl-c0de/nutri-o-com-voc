@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { Award, BookOpen, Heart, Users } from "lucide-react";
-import profileImage from "@/assets/nutritionist-profile.jpg";
+import fotoGaby from "@/assets/foto-gaby.png";
 
 const features = [
   {
@@ -39,7 +39,7 @@ const AboutSection = () => {
           >
             <div className="relative rounded-3xl overflow-hidden">
               <img
-                src={profileImage}
+                src={fotoGaby}
                 alt="Nutricionista"
                 className="w-full h-[600px] object-cover card-elevated rounded-3xl"
               />
@@ -66,12 +66,12 @@ const AboutSection = () => {
             <div>
               <span className="text-primary font-medium">Sobre Mim</span>
               <h2 className="text-3xl md:text-4xl font-serif font-bold text-foreground mt-2">
-                Olá, eu sou a Dra. Ana Paula
+                Olá, eu sou a Dra. Gabrielly
               </h2>
             </div>
 
             <p className="text-muted-foreground text-lg">
-              Nutricionista formada pela USP, apaixonada por ajudar pessoas a
+              Nutricionista formada pela Unissuam, apaixonada por ajudar pessoas a
               transformarem suas vidas através da alimentação. Acredito que cada
               pessoa é única e merece um plano alimentar personalizado.
             </p>

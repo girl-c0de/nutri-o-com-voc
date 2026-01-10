@@ -1,27 +1,7 @@
-import Header from "@/components/Header";
-import HeroSection from "@/components/HeroSection";
-import EbooksSection from "@/components/EbooksSection";
-import AboutSection from "@/components/AboutSection";
-import TestimonialsSection from "@/components/TestimonialsSection";
-import ContactSection from "@/components/ContactSection";
-import WhatsAppButton from "@/components/WhatsAppButton";
-import Footer from "@/components/Footer";
+import LandingPage from "./LandingPage";
 
 const Index = () => {
-  return (
-    <div className="min-h-screen bg-background">
-      <Header />
-      <main>
-        <HeroSection />
-        <EbooksSection />
-        <AboutSection />
-        <TestimonialsSection />
-        <ContactSection />
-      </main>
-      <Footer />
-      <WhatsAppButton />
-    </div>
-  );
+  return <LandingPage />;
 };
 
 export default Index;
